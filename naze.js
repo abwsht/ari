@@ -3842,7 +3842,7 @@ module.exports = naze = async (naze, m, msg, store, groupCache) => {
 				if (args[0] == 'set') {
 					if (['1','2','3'].includes(args[1])) {
 						set.template = parseInt(Number(args[1]))
-						m.reply('Sukses Mengubah Template Menu')
+						m.reply('Sukses Mengubah Template Menu kontoll')
 					} else m.reply(`Silahkan Pilih Templat:\n- 1 (Button Menu)\n- 2 (List Menu)\n- 3 (Document Menu)`)
 				} else await templateMenu(naze, set.template, m, prefix, setv, db, { botNumber, isVip, isPremium })
 			}
@@ -3854,7 +3854,7 @@ module.exports = naze = async (naze, m, msg, store, groupCache) => {
 				} catch (e) {
 					profile = fake.anonim
 				}
-				const menunya = `
+				const menunya cookk= `
 ╭──❍「 *USER INFO* 」❍
 ├ *Nama* : ${m.pushName ? m.pushName : 'Tanpa Nama'}
 ├ *Id* : @${m.sender.split('@')[0]}
